@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navdrawer_resource"
+        android:title="resources"
+        android:icon="@drawable/header_baseline_source_24"/>
+
+    <item
+        android:id="@+id/navdrawer_website"
+        android:title="website"
+        android:icon="@drawable/header_baseline_web_24"/>
+
+
+    <item
+        android:id="@+id/drawable_logout_btn1"
+        android:title="Logout"
+        android:icon="@drawable/baseline_logout_24"/>
+
+</menu>

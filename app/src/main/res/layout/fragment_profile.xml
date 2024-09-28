@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ProfileFragment">
+
+
+    <ImageView
+        android:id="@+id/userImage"
+        android:layout_width="99dp"
+        android:layout_height="97dp"
+        android:background="@drawable/levendorborder"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089" />
+
+    <TextView
+        android:id="@+id/uploadBtn"
+        android:layout_width="43dp"
+        android:layout_height="39dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:drawableStart="@drawable/baseline_upload_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.604"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063" />
+
+
+
+    <LinearLayout
+        android:id="@+id/linew"
+        android:layout_width="338dp"
+        android:layout_height="489dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <TextView
+            android:id="@+id/disFullnameProfile"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/levendorborder"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:hint="Full Name"/>
+
+        <TextView
+            android:id="@+id/disAddress"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/levendorborder"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:hint="address"/>
+
+        <TextView
+            android:id="@+id/disEmail"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/levendorborder"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:hint="email"/>
+
+        <TextView
+            android:id="@+id/disDate"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/levendorborder"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:hint="DOB"/>
+
+        <TextView
+            android:id="@+id/disSem"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/levendorborder"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:hint="semester"/>
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

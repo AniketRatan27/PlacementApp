@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/successView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/levendorborder"
+    android:backgroundTint="@color/black">
+
+    <LinearLayout
+        android:layout_width="659dp"
+        android:layout_height="291dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.327">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="189dp"
+            android:layout_height="162dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/verifiedemail2"
+            android:layout_marginLeft="50dp"/>
+
+        <TextView
+            android:id="@+id/success_toast"
+            android:layout_width="567dp"
+            android:layout_height="126dp"
+            android:paddingTop="64dp"
+            android:text="Sucess"
+            android:textColor="@color/green"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
