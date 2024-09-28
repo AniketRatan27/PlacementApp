@@ -28,7 +28,7 @@ Clone this repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/Placeroo.git
+git clone https://github.com/AniketRatan27/PlacementApp.git
 Open the project in Android Studio.
 
 Connect your project to Firebase:
