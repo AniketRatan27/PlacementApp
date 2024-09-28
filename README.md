@@ -12,7 +12,7 @@ Send Notifications: Post the latest placement-related announcements, company det
 Access Student Information: View detailed student profiles and their submitted information, including resumes.
 Upload Resources: Share resources with students, such as company profiles, aptitude tests, or interview materials.
 Technology Stack
-Android (Java): Used for the mobile app's development.
+Android (Java): Used for the development of mobile apps.
 Firebase: Backend services for authentication, real-time database, and storage.
 Firestore: Used for storing student data, notifications, and resources.
 Firebase Storage: Manages the upload and download of documents like resumes.
