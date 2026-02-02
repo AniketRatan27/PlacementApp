@@ -41,8 +41,20 @@ Sync the project with Gradle files.
 
 Run the app on your emulator or connected device.
 
+
+
 For Students:
 Sign up or log in with your student credentials.
 Receive notifications about the latest placement opportunities.
 Download relevant resources.
 Upload your personal details and resume.
+
+![Screenshot_20260202_172942_PlacementApp](https://github.com/user-attachments/assets/2301de10-97e4-4258-b706-eba09bbd05b1)
+![Screenshot_20250923_100400_Chrome](https://github.com/user-attachments/assets/779d1755-412a-443f-96b5-1a86ce0f32ee)
+![Screenshot_20260202_172900_PlacementApp](https://github.com/user-attachments/assets/9d3f3530-62b8-44e0-bd48-8f0fc5cf7d6b)
+![Screenshot_20260202_172855_PlacementApp](https://github.com/user-attachments/assets/02eb7891-6e09-4727-a2d2-1ddbc4e9725d)
+![Screenshot_20260202_172949_PlacementApp](https://github.com/user-attachments/assets/c6c71846-e2b2-4ccc-a3a2-c2feb5d32f26)
+![Screenshot_20260202_172954_PlacementApp](https://github.com/user-attachments/assets/5a4a1c3e-5857-41e0-a388-d6e654479d54)
+![Screenshot_20260202_172900_PlacementApp](https://github.com/user-attachments/assets/2abaf592-8934-4b05-9598-4e0a8be06d7d)
+
+
